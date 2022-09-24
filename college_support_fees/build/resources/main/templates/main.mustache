@@ -1,0 +1,23 @@
+{{>layout/header}}
+            <h1>학생회비 납부자 명단</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">id</th>
+                        <th scope="col">학과</th>
+                        <th scope="col">학번</th>
+                        <th scope="col">이름</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {{#entityList}}
+                    <tr>
+                        <th>{{id}}</th>
+                        <td>{{subject}}</td>
+                        <td>{{num}}</td>
+                        <td>{{name}}</td>
+                    </tr>
+                {{/entityList}}
+                </tbody>
+            </table>
+{{>layout/footer}}

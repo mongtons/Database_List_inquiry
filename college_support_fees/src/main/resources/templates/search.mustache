@@ -1,0 +1,32 @@
+{{>layout/header}}
+    <form action="/search/post" method="post">
+        <p><input type="text" name="name"></p>
+        <input type="radio" name="num" value="17" checked/>17학번
+        <input type="radio" name="num" value="18"/>18학번
+        <input type="radio" name="num" value="19"/>19학번
+        <input type="radio" name="num" value="20"/>20학번
+        <input type="radio" name="num" value="21"/>21학번
+        <input type="radio" name="num" value="22"/>22학번
+        <p><button type="submit">검색</button> <input type="reset" value="초기화"/> </p>
+    </form>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">id</th>
+            <th scope="col">학과</th>
+            <th scope="col">학번</th>
+            <th scope="col">이름</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#entityList}}
+            <tr>
+                <th>{{id}}</th>
+                <td>{{subject}}</td>
+                <td>{{num}}</td>
+                <td>{{name}}</td>
+            </tr>
+        {{/entityList}}
+        </tbody>
+    </table>
+{{>layout/footer}}
