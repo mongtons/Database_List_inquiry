@@ -18,7 +18,7 @@ Spring boot와 Mysql을 이용하여 Database 속 데이터를 조회하는 페�
 * MySQL Server
 > `8.0.30`
 
-## 요약
+## 실행 요약
 ![image1](./example_Img/example01.png)
 &nbsp;Spring boot 실행 시작했을 때 첫 메인 화면, 메인 화면인 전체 목록 탭을 보여준다.   
 데이터베이스에 있는 입력 순번인 id와 각 학생들의 학과와 학번, 이름을 테이블 형식으로 보여준다.   
