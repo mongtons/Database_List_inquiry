@@ -29,3 +29,6 @@ Spring boot와 Mysql을 이용하여 Database 속 데이터를 조회하는 페�
 &nbsp;학번을 선택하고 이름없이 검색을 하면 학번에 따라 테이블 형태로 출력된다.
 ![image4](./example_Img/example04.png)
 &nbsp;이름 입력 후, 학번 선택하고 검색하면 해당하는 학우의 정보가 뜨게 된다. 
+
+---
+Github address - [mongtons](https://github.com/mongtons)
